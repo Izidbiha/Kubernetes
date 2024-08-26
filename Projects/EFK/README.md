@@ -8,7 +8,7 @@ Components of the EFK Stack
 - Kibana 📊: A visualization layer that works on top of Elasticsearch, providing a user-friendly interface to visualize data.
 
 
-Deploying the EFK stack on Kubernetes involves setting up each component to work together seamlessly. There are multiple ways of deploying the stack like manual deployment, helm charts, operators and pre-built cloud marketplace solutions. In this course, we will follow the manual deployment approach using individual manifest files.
+Deploying the EFK stack on Kubernetes involves setting up each component to work together seamlessly. There are multiple ways of deploying the stack like manual deployment, helm charts, operators and pre-built cloud marketplace solutions. In this lab, we will follow the manual deployment approach using individual manifest files.
 
 # step 1 : Deploy Elasticsearch 
 
