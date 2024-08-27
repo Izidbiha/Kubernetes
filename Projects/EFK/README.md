@@ -43,4 +43,5 @@ To explore the raw logs shipped by Fluentd, you can access the Discover tab from
 After having explored the logs, you can create dashboards to aggregate your data from various search operations. You can also import or export dashboards. Kibana dashboards are exported in the .ndjson format.
 
 **Reminder**
+
 Before proceeding, note that Kubernetes cluster is already up and running and that Elasticsearch and Fluentd have already been deployed within the Kubernetes cluster. These are prerequisites for deploying Kibana successfully.
