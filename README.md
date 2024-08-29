@@ -20,3 +20,15 @@ The EFK stack is used for logging and monitoring in Kubernetes. It consists of:
 
 CoreDNS is a DNS server that is easily integrated with Kubernetes clusters. It serves as the default DNS server in Kubernetes.
 
+## Prerequisites
+Before deploying any projects, ensure you have the following:
+
+- A Kubernetes cluster (minikube, kind, or a managed cluster like GKE, EKS, or AKS)
+- kubectl CLI tool installed and configured to interact with your Kubernetes cluster
+- Helm (for projects that require it)
+## Installation
+EFK Stack
+To deploy the EFK stack, navigate to the EFK/ directory and follow the instructions in the README.md file located there.
+
+CoreDNS
+To deploy CoreDNS, navigate to the Coreedns/ directory and follow the instructions in the README.md file located there.
